@@ -1,0 +1,14 @@
+[package]
+name = "keybindings-example"
+version = "0.1.0"
+authors = ["dystroy <denys.seguret@gmail.com>"]
+edition = "2021"
+description = "An example of using crokey to deserialize keybindings"
+license = "MIT"
+readme = "README.md"
+
+[dependencies]
+crokey = "0.4.2"
+serde = { version = "1.0.130", features = ["derive"] }
+toml = "0.5"
+
