@@ -1,5 +1,4 @@
 # This config file is read when you launch the "game" with cargo run
-
 [keybindings]
 alt-i = "Increment"
 d = "Decrement"
